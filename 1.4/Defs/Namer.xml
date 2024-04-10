@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>NamerPerson_MaleKurin</defName>
+		<include>
+			<li>KurinNameUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=2)->[KMaleFirstName] '[KNickname]' [KLastName]</li>
+				<li>r_name(p=4)->[KMaleFirstName] [KLastName]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+  
+</Defs>

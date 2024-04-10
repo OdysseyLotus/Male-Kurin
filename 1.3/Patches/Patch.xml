@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Kurin -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Face Race</li>
+		</mods>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/useGenderedHeads</xpath>
+			<value>
+				<useGenderedHeads>true</useGenderedHeads>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/alienbodytypes</xpath>
+		<value>
+			<li>Male</li>
+		</value>
+	</Operation>
+	
+	<!-- Body Addon Offsets -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(-0.3729904,0.2315113)</Male>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0,0.5401928)</Male>
+		</value>
+	</Operation>
+			
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.4972991,0.2958201)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(-0.3729904,0.2315113)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0,0.5401928)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.4972991,0.2958201)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(-0.3729904,0.2315113)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0,0.5401928)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.4972991,0.2958201)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/offsets/west/bodyTypes</xpath>
+		<value>
+			<Male>(0.009646305,-0.4951769)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(0.003215437,-0.4694535)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0,0.7877813)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(0.009646305,-0.4951769)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/offsets/west/bodyTypes</xpath>
+		<value>
+			<Male>(0,-0.5)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(0,-0.49)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0,-0.3)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(0,-0.5)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[6]/offsets/west/bodyTypes</xpath>
+		<value>
+			<Male>(0.13,-0.5)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[6]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(-0.4212219,0.289389)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[6]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0,0.5819935)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[6]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(0.13,-0.5)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[7]/offsets/west/bodyTypes</xpath>
+		<value>
+			<Male>(0,-0.5)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[7]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(0,-0.49)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[7]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0,-0.3)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[7]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(0,-0.5)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[8]/offsets/west/bodyTypes</xpath>
+		<value>
+			<Male>(0.13,-0.5)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[8]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(-0.4212219,0.289389)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[8]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0,0.5819935)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[8]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(0.13,-0.5)</Male>
+		</value>
+	</Operation>
+	
+	<!-- Backstory -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[@Name = "Kurin_BaseBackstory"]/bodyTypeMale</xpath>
+		<value>
+			<bodyTypeMale>Male</bodyTypeMale>
+		</value>
+	</Operation>
+	
+	<!-- Namers -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RulePackDef[defName="KurinNameUtility"]/rulePack/rulesFiles</xpath>
+		<value>
+			<li>KMaleFirst->Names/KMaleFirst</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RulePackDef[defName="KurinNameUtility"]/rulePack/rulesStrings</xpath>
+		<value>
+			<li>KMaleFirstName->[KMaleFirst]</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/race</xpath>
+		<value>
+			<nameGeneratorFemale>NamerPerson_Kurin</nameGeneratorFemale>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/race/nameGenerator</xpath>
+		<value>
+			<nameGenerator>NamerPerson_MaleKurin</nameGenerator>
+		</value>
+	</Operation>
+	
+	<!-- Hair -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="DRNTF_Hair_01"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="DRNTF_Hair_02"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="DRNTF_Hair_03"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="DRNTF_Hair_04"]/hairGender</xpath>
+		<value>
+			<styleGender>Any</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="DRNTF_Hair_05"]/hairGender</xpath>
+		<value>
+			<styleGender>Any</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="DRNTF_Hair_06"]/hairGender</xpath>
+		<value>
+			<styleGender>Any</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="DRNTF_Hair_07"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="DRNTF_Hair_08"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="DRNTF_Hair_09"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="DRNTF_Hair_10"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="DRNTF_Hair_11"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="Arxian_Hair_A"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="Arxian_Hair_B"]/hairGender</xpath>
+		<value>
+			<styleGender>Any</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="Arxian_Hair_C"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="Arxian_Hair_D"]/hairGender</xpath>
+		<value>
+			<styleGender>Any</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="Arxian_Hair_E"]/hairGender</xpath>
+		<value>
+			<styleGender>Any</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="Arxian_Hair_F"]/hairGender</xpath>
+		<value>
+			<styleGender>Any</styleGender>
+		</value>
+	</Operation>
+	
+
+</Patch>

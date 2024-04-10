@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Patch for Kurin HAR Facial Animation Patch -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Kurin Har Edition</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/useGenderedHeads</xpath>
+			<value>
+				<useGenderedHeads>false</useGenderedHeads>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HairDef>
+		<defName>MKurin_Hair_18</defName>
+		<label>Kurin_Hair_18</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/18/MKurin_Hair_18</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_19</defName>
+		<label>Kurin_Hair_19</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/19/MKurin_Hair_19</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_20</defName>
+		<label>Kurin_Hair_20</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/20/MKurin_Hair_20</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_21</defName>
+		<label>Kurin_Hair_21</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/21/MKurin_Hair_21</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_22</defName>
+		<label>Kurin_Hair_22</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/22/MKurin_Hair_22</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_23</defName>
+		<label>Kurin_Hair_23</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/23/MKurin_Hair_23</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_24</defName>
+		<label>Kurin_Hair_24</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/24/MKurin_Hair_24</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_25</defName>
+		<label>Kurin_Hair_25</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/25/MKurin_Hair_25</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_26</defName>
+		<label>Kurin_Hair_26</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/26/MKurin_Hair_26</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_27</defName>
+		<label>Kurin_Hair_27</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/27/MKurin_Hair_27</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_28</defName>
+		<label>Kurin_Hair_28</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/28/MKurin_Hair_28</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_29</defName>
+		<label>Kurin_Hair_29</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/29/MKurin_Hair_29</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_30</defName>
+		<label>Kurin_Hair_30</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/30/MKurin_Hair_30</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_31</defName>
+		<label>Kurin_Hair_31</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/31/MKurin_Hair_31</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_32</defName>
+		<label>Kurin_Hair_32</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/32/MKurin_Hair_32</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_33</defName>
+		<label>Kurin_Hair_33</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/33/MKurin_Hair_33</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_34</defName>
+		<label>Kurin_Hair_34</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/34/MKurin_Hair_34</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_35</defName>
+		<label>Kurin_Hair_35</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/35/MKurin_Hair_35</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MKurin_Hair_36</defName>
+		<label>Kurin_Hair_36</label>
+		<hairGender>Male</hairGender>
+		<texPath>Kurin/Hairs/36/MKurin_Hair_36</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+</Defs>
