@@ -2,6 +2,13 @@
 <Patch>
 
 	<!-- Kurin -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/maleGenderProbability</xpath>
+		<value>
+			<maleGenderProbability>0.5</maleGenderProbability>
+		</value>
+	</Operation>
+	
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/headTypes</xpath>
 		<value>
